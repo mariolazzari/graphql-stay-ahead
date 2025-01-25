@@ -1,5 +1,6 @@
 # Stay Ahead in GraphQL
 
-## Playground
+## Links
 
-[Snowtooth](https://snowtooth.moonhighway.com/)
+[Snowtooth](https://snowtooth.moonhighway.com)
+[Pet library](https://pet-library.moonhighway.com)

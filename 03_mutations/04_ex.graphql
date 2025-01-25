@@ -1,0 +1,19 @@
+query AllPets {
+  allPets {
+    name
+    weight
+    category
+    inCareOf {
+      name
+    }
+  }
+}
+
+mutation {
+  createAccount(
+    input: { name: "Mario", username: "mario", password: "password" }
+  ) {
+    name
+    username
+  }
+}

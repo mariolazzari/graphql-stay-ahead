@@ -1,0 +1,17 @@
+query {
+  allLifts {
+    ...LiftDetails
+  }
+  Lift(id: "panorama") {
+    ...LiftDetails
+  }
+}
+
+fragment LiftDetails on Lift {
+  id
+  name
+  capacity
+  status
+  night
+  elevationGain
+}

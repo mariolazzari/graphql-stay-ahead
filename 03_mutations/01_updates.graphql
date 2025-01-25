@@ -1,0 +1,13 @@
+mutation {
+  setTrailStatus(id: "goosebumps", status: CLOSED) {
+    id
+    status
+  }
+}
+
+query Trail {
+  Trail(id: "goosebumps") {
+    name
+    status
+  }
+}

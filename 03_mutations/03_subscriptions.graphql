@@ -1,0 +1,6 @@
+subscription {
+  liftStatusChanged {
+    name
+    status
+  }
+}

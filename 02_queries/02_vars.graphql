@@ -1,0 +1,9 @@
+query ($status: LiftStatus) {
+  liftCount(status: $status)
+  allLifts {
+    liftName: name
+    capacity
+    status
+    night
+  }
+}

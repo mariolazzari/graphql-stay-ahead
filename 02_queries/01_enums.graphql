@@ -1,0 +1,8 @@
+query {
+  openLifts: liftCount(status: OPEN)
+  closedLifts: liftCount(status: CLOSED)
+  allLifts {
+    liftName: name
+    capacity
+  }
+}

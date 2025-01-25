@@ -1,0 +1,15 @@
+query allLifts {
+  allLifts {
+    liftName: name
+    capacity
+    status
+    night
+  }
+}
+
+query allTrais {
+  allTrails {
+    name
+    status
+  }
+}

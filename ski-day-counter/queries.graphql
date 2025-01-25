@@ -1,0 +1,25 @@
+query {
+  totalDays
+  allDays {
+    id
+    date
+    mountain
+    conditions
+  }
+}
+
+mutation {
+  removeDay(id: "1") {
+    id
+    mountain
+  }
+  addDay(input: { mountain: "Test", date: "28-03-1975", conditions: ICE }) {
+    mountain
+  }
+}
+
+subscription {
+  newDay {
+    date
+  }
+}
